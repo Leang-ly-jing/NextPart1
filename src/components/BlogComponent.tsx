@@ -13,8 +13,7 @@ export default function BlogComponent({profile,name,price}:blogType){
              alt="profile" />
             <h1>Name : {name} </h1>
             <h2>Price : {price}$</h2>
-             <AddLoopyComponent/>
-         
+            <AddLoopyComponent/>
         </div>
     )
 }
